@@ -1,0 +1,44 @@
+LIBRARY IEEE;
+USE ieee.std_logic_1164.all;
+
+Entity cod_bin_two_four IS
+	port(
+		bin_in_0: IN STD_LOGIC;
+		bin_in_1: IN STD_LOGIC;
+		leds_output_codified: OUT STD_LOGIC_VECTOR(3 downto 0)
+	);
+END entity;
+
+Architecture arch OF cod_bin_two_four IS
+BEGIN
+	leds_output_codified <= "0001" when  = 0 and ;	-- Buffer
+	
+	led_0(1) <= not(bool_in_0);	-- Not
+	
+	led_0(2) <= bool_in_0 and 
+					bool_in_1 and 
+					bool_in_2;	-- AND 
+					bool_in_2
+					);	-- NAND
+					
+	led_0(4) <= bool_in_0 or 
+					bool_in_1 or 
+					bool_in_2;	-- OR
+					
+	led_0(5) <= not(
+					bool_in_0 or 
+					bool_in_1 or 
+					bool_in_2
+					);	-- NOR
+					
+	led_0(6) <= bool_in_0 xor
+					bool_in_1 xor
+					bool_in_2;	-- XOR
+	
+	led_0(7) <= not(
+					bool_in_0 xor 
+					bool_in_1 xor 
+					bool_in_2
+					);	-- XNOR
+
+END Architecture;

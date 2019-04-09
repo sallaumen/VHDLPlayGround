@@ -1,0 +1,58 @@
+v 3
+file . "mux16bits_4sect.vhd" "20170611182926.000" "20170622204807.775":
+  entity mux16bits_4sect at 1( 0) + 0 on 2307;
+  architecture a_mux16bits_4sect of mux16bits_4sect at 17( 326) + 0 on 2308;
+file . "ram.vhd" "20170611165726.000" "20170622204808.353":
+  entity ram at 1( 0) + 0 on 2309;
+  architecture a_ram of ram at 15( 420) + 0 on 2310;
+file . "banco_ULA.vhd" "20170611204854.000" "20170622204808.932":
+  entity banco_ula at 1( 0) + 0 on 2311;
+  architecture a_banco_ula of banco_ula at 15( 481) + 0 on 2312;
+file . "ULA.vhd" "20170611165726.000" "20170622204806.621":
+  entity ula at 1( 0) + 0 on 2303;
+  architecture a_ula of ula at 17( 347) + 0 on 2304;
+file . "reg1bit.vhd" "20170622224512.000" "20170622204811.271":
+  entity reg1bit at 1( 0) + 0 on 2319;
+  architecture a_reg1bit of reg1bit at 14( 249) + 0 on 2320;
+file . "processador_tb.vhd" "20170611165726.000" "20170611155659.460":
+  entity processador_tb at 1( 0) + 0 on 1259;
+  architecture a_processador_tb of processador_tb at 8( 108) + 0 on 1260;
+file . "mux8bits.vhd" "20170611165726.000" "20170622204810.089":
+  entity mux8bits at 1( 0) + 0 on 2315;
+  architecture a_mux8bits of mux8bits at 16( 283) + 0 on 2316;
+file . "pc.vhd" "20170611165726.000" "20170622204810.683":
+  entity pc at 1( 0) + 0 on 2317;
+  architecture a_pc of pc at 15( 304) + 0 on 2318;
+file . "maqEstados_tb.vhd" "20170507132050.000" "20170507102100.283":
+  entity maqestados_tb at 1( 0) + 0 on 21;
+  architecture a_maqestados_tb of maqestados_tb at 8( 107) + 0 on 22;
+file . "maqEstados.vhd" "20170622223330.000" "20170622204809.512":
+  entity maqestados at 1( 0) + 0 on 2313;
+  architecture a_maqestados of maqestados at 9( 188) + 0 on 2314;
+file . "pc_tb.vhd" "20170508010906.000" "20170507220908.558":
+  entity pc_tb at 1( 0) + 0 on 31;
+  architecture a_pc_tb of pc_tb at 7( 98) + 0 on 32;
+file . "uc.vhd" "20170611211644.000" "20170622204811.870":
+  entity uc at 1( 0) + 0 on 2321;
+  architecture a_uc of uc at 17( 451) + 0 on 2322;
+file . "uc_tb.vhd" "20170511232504.000" "20170511215505.690":
+  entity uc_tb at 1( 0) + 0 on 261;
+  architecture a_uc_tb of uc_tb at 7( 98) + 0 on 262;
+file . "mux16bits.vhd" "20170611165726.000" "20170622204807.200":
+  entity mux16bits at 1( 0) + 0 on 2305;
+  architecture a_mux16bits of mux16bits at 16( 287) + 0 on 2306;
+file . "rom18bits.vhd" "20170622234756.000" "20170622204812.470":
+  entity rom18bits at 1( 0) + 0 on 2323;
+  architecture a_rom18bits of rom18bits at 12( 253) + 4 on 2324;
+file . "processador.vhd" "20170622223344.000" "20170622204813.710":
+  entity processador at 1( 0) + 0 on 2327;
+  architecture a_processador of processador at 9( 145) + 1 on 2328;
+file . "pc_soma1.vhd" "20170611165726.000" "20170622204813.086":
+  entity pc_soma1 at 1( 0) + 0 on 2325;
+  architecture a_pc_soma1 of pc_soma1 at 12( 216) + 0 on 2326;
+file . "reg16bits.vhd" "20170611165726.000" "20170622204805.408":
+  entity reg16bits at 1( 0) + 0 on 2299;
+  architecture a_reg16bits of reg16bits at 14( 275) + 0 on 2300;
+file . "bancoReg16bits.vhd" "20170622224130.000" "20170622204806.028":
+  entity bancoreg16bits at 1( 0) + 0 on 2301;
+  architecture a_bancoreg16bits of bancoreg16bits at 12( 314) + 1 on 2302;

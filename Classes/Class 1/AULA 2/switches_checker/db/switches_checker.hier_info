@@ -1,0 +1,23 @@
+|switches_checker
+sw_0 => led_0.DATAIN
+sw_1 => led_1.DATAIN
+sw_2 => led_2.DATAIN
+sw_3 => led_3.DATAIN
+sw_4 => led_4.DATAIN
+sw_5 => led_5.DATAIN
+sw_6 => led_6.DATAIN
+sw_7 => led_7.DATAIN
+sw_8 => led_8.DATAIN
+sw_9 => led_9.DATAIN
+led_0 <= sw_0.DB_MAX_OUTPUT_PORT_TYPE
+led_1 <= sw_1.DB_MAX_OUTPUT_PORT_TYPE
+led_2 <= sw_2.DB_MAX_OUTPUT_PORT_TYPE
+led_3 <= sw_3.DB_MAX_OUTPUT_PORT_TYPE
+led_4 <= sw_4.DB_MAX_OUTPUT_PORT_TYPE
+led_5 <= sw_5.DB_MAX_OUTPUT_PORT_TYPE
+led_6 <= sw_6.DB_MAX_OUTPUT_PORT_TYPE
+led_7 <= sw_7.DB_MAX_OUTPUT_PORT_TYPE
+led_8 <= sw_8.DB_MAX_OUTPUT_PORT_TYPE
+led_9 <= sw_9.DB_MAX_OUTPUT_PORT_TYPE
+
+

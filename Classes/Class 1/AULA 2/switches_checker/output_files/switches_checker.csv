@@ -1,0 +1,41 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+# File: D:\Documents\VHDL\switches_checker\output_files\switches_checker.csv
+# Generated on: Wed Mar 20 18:12:55 2019
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair
+led_0,Output,PIN_J1,1,B1_N1,PIN_J1,,,,,
+led_1,Output,PIN_J2,1,B1_N1,PIN_J2,,,,,
+led_2,Output,PIN_J3,1,B1_N1,PIN_J3,,,,,
+led_3,Output,PIN_H1,1,B1_N1,PIN_H1,,,,,
+led_4,Output,PIN_F2,1,B1_N0,PIN_F2,,,,,
+led_5,Output,PIN_E1,1,B1_N0,PIN_E1,,,,,
+led_6,Output,PIN_C1,1,B1_N0,PIN_C1,,,,,
+led_7,Output,PIN_C2,1,B1_N0,PIN_C2,,,,,
+led_8,Output,PIN_B2,1,B1_N0,PIN_B2,,,,,
+led_9,Output,PIN_B1,1,B1_N0,PIN_B1,,,,,
+sw_0,Input,PIN_J6,1,B1_N0,PIN_J6,,,,,
+sw_1,Input,PIN_H5,1,B1_N0,PIN_H5,,,,,
+sw_2,Input,PIN_H6,1,B1_N0,PIN_H6,,,,,
+sw_3,Input,PIN_G4,1,B1_N0,PIN_G4,,,,,
+sw_4,Input,PIN_G5,1,B1_N0,PIN_G5,,,,,
+sw_5,Input,PIN_J7,1,B1_N1,PIN_J7,,,,,
+sw_6,Input,PIN_H7,1,B1_N0,PIN_H7,,,,,
+sw_7,Input,PIN_E3,1,B1_N0,PIN_E3,,,,,
+sw_8,Input,PIN_E4,1,B1_N0,PIN_E4,,,,,
+sw_9,Input,PIN_D2,1,B1_N0,PIN_D2,,,,,
