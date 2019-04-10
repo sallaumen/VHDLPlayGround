@@ -23,15 +23,15 @@ BEGIN
 						 + to_integer("000" & switch_input(8))
 						 + to_integer("000" & switch_input(9));
  
-	leds_output <= "10111111" when switch_sum = 0 else
-					"10000110" when switch_sum = 1 else
-					"11011011" when switch_sum = 2 else
-					"11001111" when switch_sum = 3 else
-					"11100110" when switch_sum = 4 else
-					"11101101" when switch_sum = 5 else
-					"11111101" when switch_sum = 6 else
-					"10000111" when switch_sum = 7 else
-					"11111111" when switch_sum = 8 else
-					"11101111" when switch_sum = 9 else "00000000";	
-
+	leds_output <= "01000000" when switch_sum = 0 else
+					"01111001" when switch_sum = 1 else
+					"00100100" when switch_sum = 2 else
+					"00110000" when switch_sum = 3 else
+					"00011001" when switch_sum = 4 else
+					"00010010" when switch_sum = 5 else
+					"00000010" when switch_sum = 6 else
+					"01111000" when switch_sum = 7 else
+					"00000000" when switch_sum = 8 else
+					"00010000" when switch_sum = 9 else "11111111";	
+					
 END Architecture;
