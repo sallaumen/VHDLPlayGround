@@ -1,0 +1,45 @@
+|conversor_gray_bin
+g_c[0] => gen_output.IN0
+g_c[0] => gen_output.IN1
+g_c[1] => gen_output.IN0
+g_c[1] => gen_output.IN1
+g_c[1] => gen_output.IN1
+g_c[2] => gen_output.IN0
+g_c[2] => gen_output.IN1
+g_c[2] => gen_output.IN1
+g_c[3] => gen_output.IN0
+g_c[3] => gen_output.IN1
+g_c[3] => gen_output.IN1
+g_c[4] => gen_output.IN0
+g_c[4] => gen_output.IN1
+g_c[4] => gen_output.IN1
+g_c[5] => gen_output.IN0
+g_c[5] => gen_output.IN1
+g_c[5] => gen_output.IN1
+g_c[6] => gen_output.IN0
+g_c[6] => gen_output.IN1
+g_c[6] => gen_output.IN1
+g_c[7] => gen_output.IN0
+g_c[7] => gen_output.IN1
+g_c[8] => gen_output.IN1
+g_c[8] => gen_output[8].DATAIN
+g_c[9] => gen_output.OUTPUTSELECT
+g_c[9] => gen_output.OUTPUTSELECT
+g_c[9] => gen_output.OUTPUTSELECT
+g_c[9] => gen_output.OUTPUTSELECT
+g_c[9] => gen_output.OUTPUTSELECT
+g_c[9] => gen_output.OUTPUTSELECT
+g_c[9] => gen_output.OUTPUTSELECT
+g_c[9] => gen_output[9].DATAIN
+gen_output[0] <= gen_output.DB_MAX_OUTPUT_PORT_TYPE
+gen_output[1] <= gen_output.DB_MAX_OUTPUT_PORT_TYPE
+gen_output[2] <= gen_output.DB_MAX_OUTPUT_PORT_TYPE
+gen_output[3] <= gen_output.DB_MAX_OUTPUT_PORT_TYPE
+gen_output[4] <= gen_output.DB_MAX_OUTPUT_PORT_TYPE
+gen_output[5] <= gen_output.DB_MAX_OUTPUT_PORT_TYPE
+gen_output[6] <= gen_output.DB_MAX_OUTPUT_PORT_TYPE
+gen_output[7] <= gen_output.DB_MAX_OUTPUT_PORT_TYPE
+gen_output[8] <= g_c[8].DB_MAX_OUTPUT_PORT_TYPE
+gen_output[9] <= g_c[9].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,34 @@
+LIBRARY IEEE;
+USE ieee.std_logic_1164.all;
+
+Entity conversor_gray_bin IS
+	port(
+		g_c: IN STD_LOGIC_VECTOR(9 downto 0);
+		gen_output: OUT STD_LOGIC_VECTOR(9 downto 0)
+	);
+END entity;
+
+Architecture arch OF conversor_gray_bin IS
+BEGIN
+		gen_output(9) <= g_c(9);	-- When g_c(9) = 0, it is a bin to grey
+											-- When g_c(9) = 1, it is a grey to bin
+		gen_output(8) <= g_c(8) when g_c(9) = '1' else
+							g_c(8);
+		gen_output(7) <= g_c(8) xor g_c(7) when g_c(9) = '1' else
+							g_c(8) xor g_c(7);
+		gen_output(6) <= g_c(8) xor g_c(7) xor g_c(6) when g_c(9) = '1' else
+							g_c(7) xor g_c(6);
+		gen_output(5) <= g_c(8) xor g_c(7) xor g_c(6) xor g_c(5) when g_c(9) = '1' else
+							g_c(6) xor g_c(5);
+		gen_output(4) <= g_c(8) xor g_c(7) xor g_c(6) xor g_c(5) xor g_c(4) when g_c(9) = '1' else
+							g_c(5) xor g_c(4);
+		gen_output(3) <= g_c(8) xor g_c(7) xor g_c(6) xor g_c(5) xor g_c(4) xor g_c(3) when g_c(9) = '1' else
+							g_c(4) xor g_c(3);
+		gen_output(2) <= g_c(8) xor g_c(7) xor g_c(6) xor g_c(5) xor g_c(4) xor g_c(3) xor g_c(2) when g_c(9) = '1' else
+							g_c(3) xor g_c(2);
+		gen_output(1) <= g_c(8) xor g_c(7) xor g_c(6) xor g_c(5) xor g_c(4) xor g_c(3) xor g_c(2) xor g_c(1) when g_c(9) = '1' else
+							g_c(2) xor g_c(1);
+		gen_output(0) <= g_c(8) xor g_c(7) xor g_c(6) xor g_c(5) xor g_c(4) xor g_c(3) xor g_c(2) xor g_c(1) xor g_c(0)
+							when g_c(9) = '1' else
+							g_c(1) xor g_c(0);
+END Architecture;
