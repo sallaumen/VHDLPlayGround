@@ -1,0 +1,44 @@
+|odd_or_even
+input_selector => leds_output.IN1
+input_selector => leds_output.IN1
+input_selector => leds_output.IN1
+input_selector => leds_output.IN1
+switch_input[0] => leds_output.DATAB
+switch_input[0] => leds_output.DATAB
+switch_input[0] => vector_iterator[1].IN0
+switch_input[1] => vector_iterator[1].IN1
+switch_input[1] => leds_output.DATAB
+switch_input[1] => leds_output.DATAB
+switch_input[2] => vector_iterator[2].IN1
+switch_input[2] => leds_output.DATAB
+switch_input[2] => leds_output.DATAB
+switch_input[3] => vector_iterator[3].IN1
+switch_input[3] => leds_output.DATAB
+switch_input[3] => leds_output.DATAB
+switch_input[4] => vector_iterator[4].IN1
+switch_input[4] => leds_output.DATAB
+switch_input[4] => leds_output.DATAB
+switch_input[5] => vector_iterator[5].IN1
+switch_input[5] => leds_output.DATAB
+switch_input[5] => leds_output.DATAB
+switch_input[6] => vector_iterator[6].IN1
+switch_input[6] => leds_output.DATAB
+switch_input[6] => leds_output.DATAB
+switch_input[7] => vector_iterator[7].IN1
+switch_input[7] => leds_output.DATAB
+switch_input[7] => leds_output.DATAB
+switch_input[8] => vector_iterator[8].IN1
+switch_input[8] => leds_output.DATAB
+switch_input[8] => leds_output.DATAB
+leds_output[0] <= leds_output.DB_MAX_OUTPUT_PORT_TYPE
+leds_output[1] <= leds_output.DB_MAX_OUTPUT_PORT_TYPE
+leds_output[2] <= leds_output.DB_MAX_OUTPUT_PORT_TYPE
+leds_output[3] <= leds_output.DB_MAX_OUTPUT_PORT_TYPE
+leds_output[4] <= leds_output.DB_MAX_OUTPUT_PORT_TYPE
+leds_output[5] <= leds_output.DB_MAX_OUTPUT_PORT_TYPE
+leds_output[6] <= leds_output.DB_MAX_OUTPUT_PORT_TYPE
+leds_output[7] <= leds_output.DB_MAX_OUTPUT_PORT_TYPE
+leds_output[8] <= leds_output.DB_MAX_OUTPUT_PORT_TYPE
+leds_output[9] <= leds_output.DB_MAX_OUTPUT_PORT_TYPE
+
+

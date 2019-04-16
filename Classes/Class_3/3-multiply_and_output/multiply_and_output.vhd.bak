@@ -1,0 +1,35 @@
+LIBRARY IEEE;
+USE ieee.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+Entity multiply_and_output IS
+	generic (
+		ACTIONS_SIZE : integer := 3
+		OUTPUT_SIZE : integer := 9
+		INPUT_SIZE : integer := 9
+	);
+	port(		
+		binary_input_vector: IN STD_LOGIC_VECTOR(INPUT_SIZE downto 0);
+		binary_output_vector: OUT STD_LOGIC_VECTOR(OUTPUT_SIZE downto 0);
+		action_vector: IN STD_LOGIC_VECTOR(ACTIONS_SIZE downto 0)
+	);
+END entity;
+
+Architecture arch OF multiply_and_output IS
+	--signal vector_iterator: std_LOGIC_VECTOR (DATA_SIZE-1 downto 0);
+	signal sum: integer;
+
+BEGIN
+	--Conta numero de chaves ligadas
+	sum = 0;
+	G1: for i in 0 to DATA_SIZE generate
+		sum := sum + 1;
+	end generate G1;
+	--Gera output em binário
+	--leds_output <= vector_iterator(DATA_SIZE-2);
+
+	
+	--Gera output em hexa
+
+
+END Architecture;
