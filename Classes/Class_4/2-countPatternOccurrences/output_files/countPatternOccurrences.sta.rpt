@@ -1,0 +1,716 @@
+TimeQuest Timing Analyzer report for countPatternOccurrences
+Wed Apr 17 17:08:44 2019
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow 1200mV 85C Model Fmax Summary
+  6. Timing Closure Recommendations
+  7. Slow 1200mV 85C Model Setup Summary
+  8. Slow 1200mV 85C Model Hold Summary
+  9. Slow 1200mV 85C Model Recovery Summary
+ 10. Slow 1200mV 85C Model Removal Summary
+ 11. Slow 1200mV 85C Model Minimum Pulse Width Summary
+ 12. Propagation Delay
+ 13. Minimum Propagation Delay
+ 14. Slow 1200mV 85C Model Metastability Report
+ 15. Slow 1200mV 0C Model Fmax Summary
+ 16. Slow 1200mV 0C Model Setup Summary
+ 17. Slow 1200mV 0C Model Hold Summary
+ 18. Slow 1200mV 0C Model Recovery Summary
+ 19. Slow 1200mV 0C Model Removal Summary
+ 20. Slow 1200mV 0C Model Minimum Pulse Width Summary
+ 21. Propagation Delay
+ 22. Minimum Propagation Delay
+ 23. Slow 1200mV 0C Model Metastability Report
+ 24. Fast 1200mV 0C Model Setup Summary
+ 25. Fast 1200mV 0C Model Hold Summary
+ 26. Fast 1200mV 0C Model Recovery Summary
+ 27. Fast 1200mV 0C Model Removal Summary
+ 28. Fast 1200mV 0C Model Minimum Pulse Width Summary
+ 29. Propagation Delay
+ 30. Minimum Propagation Delay
+ 31. Fast 1200mV 0C Model Metastability Report
+ 32. Multicorner Timing Analysis Summary
+ 33. Progagation Delay
+ 34. Minimum Progagation Delay
+ 35. Board Trace Model Assignments
+ 36. Input Transition Times
+ 37. Slow Corner Signal Integrity Metrics
+ 38. Fast Corner Signal Integrity Metrics
+ 39. Clock Transfers
+ 40. Report TCCS
+ 41. Report RSKM
+ 42. Unconstrained Paths
+ 43. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                       ;
++--------------------+----------------------------------------------------+
+; Quartus II Version ; Version 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
+; Revision Name      ; countPatternOccurrences                            ;
+; Device Family      ; Cyclone III                                        ;
+; Device Name        ; EP3C16F484C6                                       ;
+; Timing Models      ; Final                                              ;
+; Delay Model        ; Combined                                           ;
+; Rise/Fall Delays   ; Enabled                                            ;
++--------------------+----------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Fmax Summary ;
+--------------------------------------
+No paths to report.
+
+
+----------------------------------
+; Timing Closure Recommendations ;
+----------------------------------
+HTML report is unavailable in plain text report export.
+
+
+---------------------------------------
+; Slow 1200mV 85C Model Setup Summary ;
+---------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Hold Summary ;
+--------------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow 1200mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
+-----------------------------------------------------
+; Slow 1200mV 85C Model Minimum Pulse Width Summary ;
+-----------------------------------------------------
+No paths to report.
+
+
++-------------------------------------------------------------------------------------+
+; Propagation Delay                                                                   ;
++------------------------+-------------------------+-------+--------+--------+--------+
+; Input Port             ; Output Port             ; RR    ; RF     ; FR     ; FF     ;
++------------------------+-------------------------+-------+--------+--------+--------+
+; binary_input_vector[0] ; binary_output_vector[0] ; 8.112 ; 8.094  ; 8.605  ; 8.587  ;
+; binary_input_vector[0] ; binary_output_vector[1] ; 8.955 ; 8.981  ; 9.458  ; 9.484  ;
+; binary_input_vector[0] ; binary_output_vector[2] ; 9.927 ; 10.101 ; 10.430 ; 10.604 ;
+; binary_input_vector[1] ; binary_output_vector[0] ; 7.891 ; 7.873  ; 8.286  ; 8.268  ;
+; binary_input_vector[1] ; binary_output_vector[1] ; 8.744 ; 8.770  ; 9.132  ; 9.158  ;
+; binary_input_vector[1] ; binary_output_vector[2] ; 9.716 ; 9.890  ; 10.104 ; 10.278 ;
+; binary_input_vector[2] ; binary_output_vector[0] ; 7.816 ; 7.798  ; 8.318  ; 8.300  ;
+; binary_input_vector[2] ; binary_output_vector[1] ; 8.662 ; 8.688  ; 9.171  ; 9.197  ;
+; binary_input_vector[2] ; binary_output_vector[2] ; 9.634 ; 9.808  ; 10.143 ; 10.317 ;
+; binary_input_vector[3] ; binary_output_vector[0] ; 8.132 ; 8.114  ; 8.589  ; 8.571  ;
+; binary_input_vector[3] ; binary_output_vector[1] ; 8.950 ; 8.976  ; 9.473  ; 9.499  ;
+; binary_input_vector[3] ; binary_output_vector[2] ; 9.919 ; 10.096 ; 10.445 ; 10.619 ;
+; binary_input_vector[4] ; binary_output_vector[0] ; 8.097 ; 8.079  ; 8.464  ; 8.446  ;
+; binary_input_vector[4] ; binary_output_vector[1] ; 8.943 ; 8.969  ; 9.302  ; 9.328  ;
+; binary_input_vector[4] ; binary_output_vector[2] ; 9.915 ; 10.089 ; 10.274 ; 10.448 ;
+; binary_input_vector[5] ; binary_output_vector[0] ; 7.893 ; 7.875  ; 8.344  ; 8.326  ;
+; binary_input_vector[5] ; binary_output_vector[1] ; 8.711 ; 8.737  ; 9.228  ; 9.254  ;
+; binary_input_vector[5] ; binary_output_vector[2] ; 9.680 ; 9.857  ; 10.200 ; 10.374 ;
+; binary_input_vector[6] ; binary_output_vector[0] ; 7.855 ; 7.837  ; 8.255  ; 8.237  ;
+; binary_input_vector[6] ; binary_output_vector[1] ; 8.739 ; 8.765  ; 9.073  ; 9.099  ;
+; binary_input_vector[6] ; binary_output_vector[2] ; 9.711 ; 9.885  ; 10.042 ; 10.219 ;
+; binary_input_vector[7] ; binary_output_vector[0] ; 7.503 ; 7.475  ; 7.862  ; 7.891  ;
+; binary_input_vector[7] ; binary_output_vector[1] ; 8.074 ; 8.092  ; 8.512  ; 8.522  ;
+; binary_input_vector[7] ; binary_output_vector[2] ; 9.052 ; 9.176  ; 9.412  ; 9.614  ;
+; binary_input_vector[8] ; binary_output_vector[0] ; 7.325 ; 7.317  ; 7.784  ; 7.808  ;
+; binary_input_vector[8] ; binary_output_vector[1] ; 7.904 ; 7.928  ; 8.438  ; 8.448  ;
+; binary_input_vector[8] ; binary_output_vector[2] ; 8.888 ; 8.829  ; 9.061  ; 9.540  ;
+; binary_input_vector[9] ; binary_output_vector[0] ; 6.829 ; 6.853  ; 7.231  ; 7.223  ;
+; binary_input_vector[9] ; binary_output_vector[1] ; 7.483 ; 7.493  ; 7.810  ; 7.834  ;
+; binary_input_vector[9] ; binary_output_vector[2] ;       ; 8.585  ; 8.794  ;        ;
++------------------------+-------------------------+-------+--------+--------+--------+
+
+
++----------------------------------------------------------------------------------+
+; Minimum Propagation Delay                                                        ;
++------------------------+-------------------------+-------+-------+-------+-------+
+; Input Port             ; Output Port             ; RR    ; RF    ; FR    ; FF    ;
++------------------------+-------------------------+-------+-------+-------+-------+
+; binary_input_vector[0] ; binary_output_vector[0] ; 7.736 ; 7.758 ; 8.203 ; 8.225 ;
+; binary_input_vector[0] ; binary_output_vector[1] ; 7.620 ; 7.614 ; 8.045 ; 8.039 ;
+; binary_input_vector[0] ; binary_output_vector[2] ; 8.629 ; 8.786 ; 9.054 ; 9.199 ;
+; binary_input_vector[1] ; binary_output_vector[0] ; 7.480 ; 7.502 ; 7.875 ; 7.897 ;
+; binary_input_vector[1] ; binary_output_vector[1] ; 7.651 ; 7.645 ; 8.032 ; 8.026 ;
+; binary_input_vector[1] ; binary_output_vector[2] ; 8.660 ; 8.805 ; 9.041 ; 9.198 ;
+; binary_input_vector[2] ; binary_output_vector[0] ; 7.253 ; 7.275 ; 7.685 ; 7.707 ;
+; binary_input_vector[2] ; binary_output_vector[1] ; 7.493 ; 7.487 ; 7.925 ; 7.919 ;
+; binary_input_vector[2] ; binary_output_vector[2] ; 8.502 ; 8.652 ; 8.934 ; 9.084 ;
+; binary_input_vector[3] ; binary_output_vector[0] ; 7.640 ; 7.662 ; 8.032 ; 8.054 ;
+; binary_input_vector[3] ; binary_output_vector[1] ; 7.880 ; 7.874 ; 8.272 ; 8.266 ;
+; binary_input_vector[3] ; binary_output_vector[2] ; 8.889 ; 9.039 ; 9.281 ; 9.431 ;
+; binary_input_vector[4] ; binary_output_vector[0] ; 7.096 ; 7.117 ; 7.554 ; 7.538 ;
+; binary_input_vector[4] ; binary_output_vector[1] ; 7.564 ; 7.558 ; 7.972 ; 7.966 ;
+; binary_input_vector[4] ; binary_output_vector[2] ; 8.573 ; 8.721 ; 8.981 ; 9.160 ;
+; binary_input_vector[5] ; binary_output_vector[0] ; 7.059 ; 7.053 ; 7.495 ; 7.480 ;
+; binary_input_vector[5] ; binary_output_vector[1] ; 7.555 ; 7.561 ; 7.968 ; 7.962 ;
+; binary_input_vector[5] ; binary_output_vector[2] ; 8.564 ; 8.708 ; 8.977 ; 9.127 ;
+; binary_input_vector[6] ; binary_output_vector[0] ; 6.735 ; 6.756 ; 7.173 ; 7.157 ;
+; binary_input_vector[6] ; binary_output_vector[1] ; 7.203 ; 7.197 ; 7.591 ; 7.585 ;
+; binary_input_vector[6] ; binary_output_vector[2] ; 8.212 ; 8.360 ; 8.600 ; 8.779 ;
+; binary_input_vector[7] ; binary_output_vector[0] ; 6.910 ; 6.904 ; 7.343 ; 7.328 ;
+; binary_input_vector[7] ; binary_output_vector[1] ; 7.406 ; 7.427 ; 7.840 ; 7.861 ;
+; binary_input_vector[7] ; binary_output_vector[2] ; 8.415 ; 8.559 ; 8.849 ; 8.984 ;
+; binary_input_vector[8] ; binary_output_vector[0] ; 6.834 ; 6.819 ; 7.209 ; 7.203 ;
+; binary_input_vector[8] ; binary_output_vector[1] ; 7.331 ; 7.352 ; 7.705 ; 7.726 ;
+; binary_input_vector[8] ; binary_output_vector[2] ; 8.340 ; 8.475 ; 8.714 ; 8.858 ;
+; binary_input_vector[9] ; binary_output_vector[0] ; 6.669 ; 6.692 ; 7.059 ; 7.051 ;
+; binary_input_vector[9] ; binary_output_vector[1] ; 7.235 ; 7.226 ; 7.554 ; 7.575 ;
+; binary_input_vector[9] ; binary_output_vector[2] ;       ; 8.347 ; 8.563 ;       ;
++------------------------+-------------------------+-------+-------+-------+-------+
+
+
+----------------------------------------------
+; Slow 1200mV 85C Model Metastability Report ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Fmax Summary ;
+-------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+----------------------------------------------------
+; Slow 1200mV 0C Model Minimum Pulse Width Summary ;
+----------------------------------------------------
+No paths to report.
+
+
++----------------------------------------------------------------------------------+
+; Propagation Delay                                                                ;
++------------------------+-------------------------+-------+-------+-------+-------+
+; Input Port             ; Output Port             ; RR    ; RF    ; FR    ; FF    ;
++------------------------+-------------------------+-------+-------+-------+-------+
+; binary_input_vector[0] ; binary_output_vector[0] ; 7.492 ; 7.441 ; 7.900 ; 7.849 ;
+; binary_input_vector[0] ; binary_output_vector[1] ; 8.252 ; 8.240 ; 8.668 ; 8.656 ;
+; binary_input_vector[0] ; binary_output_vector[2] ; 9.245 ; 9.381 ; 9.661 ; 9.797 ;
+; binary_input_vector[1] ; binary_output_vector[0] ; 7.293 ; 7.242 ; 7.632 ; 7.581 ;
+; binary_input_vector[1] ; binary_output_vector[1] ; 8.061 ; 8.049 ; 8.395 ; 8.383 ;
+; binary_input_vector[1] ; binary_output_vector[2] ; 9.054 ; 9.190 ; 9.388 ; 9.524 ;
+; binary_input_vector[2] ; binary_output_vector[0] ; 7.217 ; 7.166 ; 7.650 ; 7.599 ;
+; binary_input_vector[2] ; binary_output_vector[1] ; 7.980 ; 7.968 ; 8.418 ; 8.406 ;
+; binary_input_vector[2] ; binary_output_vector[2] ; 8.973 ; 9.109 ; 9.411 ; 9.547 ;
+; binary_input_vector[3] ; binary_output_vector[0] ; 7.511 ; 7.460 ; 7.885 ; 7.834 ;
+; binary_input_vector[3] ; binary_output_vector[1] ; 8.260 ; 8.248 ; 8.681 ; 8.669 ;
+; binary_input_vector[3] ; binary_output_vector[2] ; 9.249 ; 9.389 ; 9.674 ; 9.810 ;
+; binary_input_vector[4] ; binary_output_vector[0] ; 7.475 ; 7.424 ; 7.795 ; 7.744 ;
+; binary_input_vector[4] ; binary_output_vector[1] ; 8.238 ; 8.226 ; 8.549 ; 8.537 ;
+; binary_input_vector[4] ; binary_output_vector[2] ; 9.231 ; 9.367 ; 9.542 ; 9.678 ;
+; binary_input_vector[5] ; binary_output_vector[0] ; 7.302 ; 7.251 ; 7.667 ; 7.616 ;
+; binary_input_vector[5] ; binary_output_vector[1] ; 8.051 ; 8.039 ; 8.463 ; 8.451 ;
+; binary_input_vector[5] ; binary_output_vector[2] ; 9.040 ; 9.180 ; 9.456 ; 9.592 ;
+; binary_input_vector[6] ; binary_output_vector[0] ; 7.245 ; 7.194 ; 7.603 ; 7.552 ;
+; binary_input_vector[6] ; binary_output_vector[1] ; 8.041 ; 8.029 ; 8.352 ; 8.340 ;
+; binary_input_vector[6] ; binary_output_vector[2] ; 9.034 ; 9.170 ; 9.341 ; 9.481 ;
+; binary_input_vector[7] ; binary_output_vector[0] ; 6.947 ; 6.889 ; 7.245 ; 7.234 ;
+; binary_input_vector[7] ; binary_output_vector[1] ; 7.460 ; 7.447 ; 7.824 ; 7.797 ;
+; binary_input_vector[7] ; binary_output_vector[2] ; 8.462 ; 8.549 ; 8.758 ; 8.913 ;
+; binary_input_vector[8] ; binary_output_vector[0] ; 6.787 ; 6.743 ; 7.178 ; 7.163 ;
+; binary_input_vector[8] ; binary_output_vector[1] ; 7.309 ; 7.296 ; 7.759 ; 7.732 ;
+; binary_input_vector[8] ; binary_output_vector[2] ; 8.311 ; 8.235 ; 8.451 ; 8.848 ;
+; binary_input_vector[9] ; binary_output_vector[0] ; 6.346 ; 6.331 ; 6.694 ; 6.650 ;
+; binary_input_vector[9] ; binary_output_vector[1] ; 6.927 ; 6.900 ; 7.216 ; 7.203 ;
+; binary_input_vector[9] ; binary_output_vector[2] ;       ; 8.016 ; 8.218 ;       ;
++------------------------+-------------------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------------+
+; Minimum Propagation Delay                                                        ;
++------------------------+-------------------------+-------+-------+-------+-------+
+; Input Port             ; Output Port             ; RR    ; RF    ; FR    ; FF    ;
++------------------------+-------------------------+-------+-------+-------+-------+
+; binary_input_vector[0] ; binary_output_vector[0] ; 7.168 ; 7.156 ; 7.553 ; 7.535 ;
+; binary_input_vector[0] ; binary_output_vector[1] ; 7.065 ; 7.025 ; 7.413 ; 7.373 ;
+; binary_input_vector[0] ; binary_output_vector[2] ; 8.088 ; 8.215 ; 8.436 ; 8.549 ;
+; binary_input_vector[1] ; binary_output_vector[0] ; 6.947 ; 6.935 ; 7.288 ; 7.276 ;
+; binary_input_vector[1] ; binary_output_vector[1] ; 7.086 ; 7.046 ; 7.421 ; 7.381 ;
+; binary_input_vector[1] ; binary_output_vector[2] ; 8.109 ; 8.222 ; 8.444 ; 8.571 ;
+; binary_input_vector[2] ; binary_output_vector[0] ; 6.734 ; 6.722 ; 7.101 ; 7.084 ;
+; binary_input_vector[2] ; binary_output_vector[1] ; 6.955 ; 6.915 ; 7.322 ; 7.282 ;
+; binary_input_vector[2] ; binary_output_vector[2] ; 7.978 ; 8.095 ; 8.345 ; 8.462 ;
+; binary_input_vector[3] ; binary_output_vector[0] ; 7.076 ; 7.059 ; 7.411 ; 7.399 ;
+; binary_input_vector[3] ; binary_output_vector[1] ; 7.297 ; 7.257 ; 7.632 ; 7.592 ;
+; binary_input_vector[3] ; binary_output_vector[2] ; 8.320 ; 8.437 ; 8.655 ; 8.772 ;
+; binary_input_vector[4] ; binary_output_vector[0] ; 6.595 ; 6.581 ; 6.988 ; 6.941 ;
+; binary_input_vector[4] ; binary_output_vector[1] ; 7.028 ; 6.988 ; 7.367 ; 7.327 ;
+; binary_input_vector[4] ; binary_output_vector[2] ; 8.051 ; 8.166 ; 8.390 ; 8.533 ;
+; binary_input_vector[5] ; binary_output_vector[0] ; 6.567 ; 6.526 ; 6.920 ; 6.873 ;
+; binary_input_vector[5] ; binary_output_vector[1] ; 7.012 ; 6.979 ; 7.359 ; 7.319 ;
+; binary_input_vector[5] ; binary_output_vector[2] ; 8.034 ; 8.143 ; 8.382 ; 8.492 ;
+; binary_input_vector[6] ; binary_output_vector[0] ; 6.264 ; 6.250 ; 6.638 ; 6.591 ;
+; binary_input_vector[6] ; binary_output_vector[1] ; 6.697 ; 6.657 ; 7.017 ; 6.977 ;
+; binary_input_vector[6] ; binary_output_vector[2] ; 7.720 ; 7.835 ; 8.040 ; 8.183 ;
+; binary_input_vector[7] ; binary_output_vector[0] ; 6.433 ; 6.392 ; 6.793 ; 6.746 ;
+; binary_input_vector[7] ; binary_output_vector[1] ; 6.878 ; 6.866 ; 7.240 ; 7.222 ;
+; binary_input_vector[7] ; binary_output_vector[2] ; 7.900 ; 8.009 ; 8.262 ; 8.365 ;
+; binary_input_vector[8] ; binary_output_vector[0] ; 6.351 ; 6.304 ; 6.676 ; 6.635 ;
+; binary_input_vector[8] ; binary_output_vector[1] ; 6.798 ; 6.780 ; 7.121 ; 7.109 ;
+; binary_input_vector[8] ; binary_output_vector[2] ; 7.820 ; 7.923 ; 8.143 ; 8.252 ;
+; binary_input_vector[9] ; binary_output_vector[0] ; 6.209 ; 6.194 ; 6.547 ; 6.504 ;
+; binary_input_vector[9] ; binary_output_vector[1] ; 6.711 ; 6.669 ; 6.992 ; 6.981 ;
+; binary_input_vector[9] ; binary_output_vector[2] ;       ; 7.812 ; 8.014 ;       ;
++------------------------+-------------------------+-------+-------+-------+-------+
+
+
+---------------------------------------------
+; Slow 1200mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
+--------------------------------------
+; Fast 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Fast 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Fast 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+----------------------------------------------------
+; Fast 1200mV 0C Model Minimum Pulse Width Summary ;
+----------------------------------------------------
+No paths to report.
+
+
++----------------------------------------------------------------------------------+
+; Propagation Delay                                                                ;
++------------------------+-------------------------+-------+-------+-------+-------+
+; Input Port             ; Output Port             ; RR    ; RF    ; FR    ; FF    ;
++------------------------+-------------------------+-------+-------+-------+-------+
+; binary_input_vector[0] ; binary_output_vector[0] ; 4.767 ; 4.778 ; 5.401 ; 5.412 ;
+; binary_input_vector[0] ; binary_output_vector[1] ; 5.222 ; 5.265 ; 5.865 ; 5.908 ;
+; binary_input_vector[0] ; binary_output_vector[2] ; 5.914 ; 6.105 ; 6.557 ; 6.748 ;
+; binary_input_vector[1] ; binary_output_vector[0] ; 4.673 ; 4.684 ; 5.225 ; 5.236 ;
+; binary_input_vector[1] ; binary_output_vector[1] ; 5.137 ; 5.180 ; 5.680 ; 5.723 ;
+; binary_input_vector[1] ; binary_output_vector[2] ; 5.829 ; 6.020 ; 6.372 ; 6.563 ;
+; binary_input_vector[2] ; binary_output_vector[0] ; 4.616 ; 4.627 ; 5.215 ; 5.226 ;
+; binary_input_vector[2] ; binary_output_vector[1] ; 5.071 ; 5.114 ; 5.679 ; 5.722 ;
+; binary_input_vector[2] ; binary_output_vector[2] ; 5.763 ; 5.954 ; 6.371 ; 6.562 ;
+; binary_input_vector[3] ; binary_output_vector[0] ; 4.784 ; 4.795 ; 5.396 ; 5.407 ;
+; binary_input_vector[3] ; binary_output_vector[1] ; 5.223 ; 5.266 ; 5.873 ; 5.916 ;
+; binary_input_vector[3] ; binary_output_vector[2] ; 5.915 ; 6.106 ; 6.565 ; 6.756 ;
+; binary_input_vector[4] ; binary_output_vector[0] ; 4.784 ; 4.795 ; 5.317 ; 5.328 ;
+; binary_input_vector[4] ; binary_output_vector[1] ; 5.239 ; 5.282 ; 5.769 ; 5.812 ;
+; binary_input_vector[4] ; binary_output_vector[2] ; 5.931 ; 6.122 ; 6.461 ; 6.652 ;
+; binary_input_vector[5] ; binary_output_vector[0] ; 4.653 ; 4.664 ; 5.261 ; 5.272 ;
+; binary_input_vector[5] ; binary_output_vector[1] ; 5.078 ; 5.121 ; 5.738 ; 5.781 ;
+; binary_input_vector[5] ; binary_output_vector[2] ; 5.761 ; 5.961 ; 6.430 ; 6.621 ;
+; binary_input_vector[6] ; binary_output_vector[0] ; 4.644 ; 4.655 ; 5.166 ; 5.177 ;
+; binary_input_vector[6] ; binary_output_vector[1] ; 5.121 ; 5.164 ; 5.591 ; 5.634 ;
+; binary_input_vector[6] ; binary_output_vector[2] ; 5.813 ; 6.004 ; 6.274 ; 6.474 ;
+; binary_input_vector[7] ; binary_output_vector[0] ; 4.456 ; 4.461 ; 4.980 ; 5.024 ;
+; binary_input_vector[7] ; binary_output_vector[1] ; 4.782 ; 4.809 ; 5.357 ; 5.383 ;
+; binary_input_vector[7] ; binary_output_vector[2] ; 5.464 ; 5.632 ; 5.988 ; 6.207 ;
+; binary_input_vector[8] ; binary_output_vector[0] ; 4.336 ; 4.362 ; 4.942 ; 4.986 ;
+; binary_input_vector[8] ; binary_output_vector[1] ; 4.656 ; 4.695 ; 5.322 ; 5.348 ;
+; binary_input_vector[8] ; binary_output_vector[2] ; 5.350 ; 5.425 ; 5.784 ; 6.172 ;
+; binary_input_vector[9] ; binary_output_vector[0] ; 4.084 ; 4.128 ; 4.617 ; 4.643 ;
+; binary_input_vector[9] ; binary_output_vector[1] ; 4.464 ; 4.490 ; 4.937 ; 4.976 ;
+; binary_input_vector[9] ; binary_output_vector[2] ;       ; 5.314 ; 5.631 ;       ;
++------------------------+-------------------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------------+
+; Minimum Propagation Delay                                                        ;
++------------------------+-------------------------+-------+-------+-------+-------+
+; Input Port             ; Output Port             ; RR    ; RF    ; FR    ; FF    ;
++------------------------+-------------------------+-------+-------+-------+-------+
+; binary_input_vector[0] ; binary_output_vector[0] ; 4.544 ; 4.580 ; 5.162 ; 5.198 ;
+; binary_input_vector[0] ; binary_output_vector[1] ; 4.480 ; 4.502 ; 5.077 ; 5.099 ;
+; binary_input_vector[0] ; binary_output_vector[2] ; 5.189 ; 5.377 ; 5.786 ; 5.964 ;
+; binary_input_vector[1] ; binary_output_vector[0] ; 4.416 ; 4.452 ; 4.969 ; 5.005 ;
+; binary_input_vector[1] ; binary_output_vector[1] ; 4.525 ; 4.547 ; 5.066 ; 5.088 ;
+; binary_input_vector[1] ; binary_output_vector[2] ; 5.234 ; 5.412 ; 5.775 ; 5.963 ;
+; binary_input_vector[2] ; binary_output_vector[0] ; 4.282 ; 4.318 ; 4.852 ; 4.888 ;
+; binary_input_vector[2] ; binary_output_vector[1] ; 4.409 ; 4.431 ; 4.979 ; 5.001 ;
+; binary_input_vector[2] ; binary_output_vector[2] ; 5.118 ; 5.307 ; 5.688 ; 5.877 ;
+; binary_input_vector[3] ; binary_output_vector[0] ; 4.507 ; 4.543 ; 5.054 ; 5.090 ;
+; binary_input_vector[3] ; binary_output_vector[1] ; 4.634 ; 4.656 ; 5.181 ; 5.203 ;
+; binary_input_vector[3] ; binary_output_vector[2] ; 5.343 ; 5.532 ; 5.890 ; 6.079 ;
+; binary_input_vector[4] ; binary_output_vector[0] ; 4.212 ; 4.248 ; 4.807 ; 4.825 ;
+; binary_input_vector[4] ; binary_output_vector[1] ; 4.459 ; 4.481 ; 5.031 ; 5.053 ;
+; binary_input_vector[4] ; binary_output_vector[2] ; 5.168 ; 5.352 ; 5.740 ; 5.944 ;
+; binary_input_vector[5] ; binary_output_vector[0] ; 4.189 ; 4.217 ; 4.770 ; 4.791 ;
+; binary_input_vector[5] ; binary_output_vector[1] ; 4.464 ; 4.491 ; 5.009 ; 5.031 ;
+; binary_input_vector[5] ; binary_output_vector[2] ; 5.170 ; 5.359 ; 5.718 ; 5.907 ;
+; binary_input_vector[6] ; binary_output_vector[0] ; 3.999 ; 4.035 ; 4.571 ; 4.589 ;
+; binary_input_vector[6] ; binary_output_vector[1] ; 4.246 ; 4.268 ; 4.795 ; 4.817 ;
+; binary_input_vector[6] ; binary_output_vector[2] ; 4.955 ; 5.139 ; 5.504 ; 5.708 ;
+; binary_input_vector[7] ; binary_output_vector[0] ; 4.104 ; 4.132 ; 4.685 ; 4.706 ;
+; binary_input_vector[7] ; binary_output_vector[1] ; 4.379 ; 4.414 ; 4.961 ; 4.996 ;
+; binary_input_vector[7] ; binary_output_vector[2] ; 5.085 ; 5.274 ; 5.667 ; 5.849 ;
+; binary_input_vector[8] ; binary_output_vector[0] ; 4.067 ; 4.088 ; 4.608 ; 4.636 ;
+; binary_input_vector[8] ; binary_output_vector[1] ; 4.343 ; 4.378 ; 4.883 ; 4.918 ;
+; binary_input_vector[8] ; binary_output_vector[2] ; 5.049 ; 5.231 ; 5.589 ; 5.778 ;
+; binary_input_vector[9] ; binary_output_vector[0] ; 3.990 ; 4.033 ; 4.519 ; 4.542 ;
+; binary_input_vector[9] ; binary_output_vector[1] ; 4.316 ; 4.334 ; 4.793 ; 4.828 ;
+; binary_input_vector[9] ; binary_output_vector[2] ;       ; 5.175 ; 5.499 ;       ;
++------------------------+-------------------------+-------+-------+-------+-------+
+
+
+---------------------------------------------
+; Fast 1200mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++-------------------------------------------------------------------------------------+
+; Progagation Delay                                                                   ;
++------------------------+-------------------------+-------+--------+--------+--------+
+; Input Port             ; Output Port             ; RR    ; RF     ; FR     ; FF     ;
++------------------------+-------------------------+-------+--------+--------+--------+
+; binary_input_vector[0] ; binary_output_vector[0] ; 8.112 ; 8.094  ; 8.605  ; 8.587  ;
+; binary_input_vector[0] ; binary_output_vector[1] ; 8.955 ; 8.981  ; 9.458  ; 9.484  ;
+; binary_input_vector[0] ; binary_output_vector[2] ; 9.927 ; 10.101 ; 10.430 ; 10.604 ;
+; binary_input_vector[1] ; binary_output_vector[0] ; 7.891 ; 7.873  ; 8.286  ; 8.268  ;
+; binary_input_vector[1] ; binary_output_vector[1] ; 8.744 ; 8.770  ; 9.132  ; 9.158  ;
+; binary_input_vector[1] ; binary_output_vector[2] ; 9.716 ; 9.890  ; 10.104 ; 10.278 ;
+; binary_input_vector[2] ; binary_output_vector[0] ; 7.816 ; 7.798  ; 8.318  ; 8.300  ;
+; binary_input_vector[2] ; binary_output_vector[1] ; 8.662 ; 8.688  ; 9.171  ; 9.197  ;
+; binary_input_vector[2] ; binary_output_vector[2] ; 9.634 ; 9.808  ; 10.143 ; 10.317 ;
+; binary_input_vector[3] ; binary_output_vector[0] ; 8.132 ; 8.114  ; 8.589  ; 8.571  ;
+; binary_input_vector[3] ; binary_output_vector[1] ; 8.950 ; 8.976  ; 9.473  ; 9.499  ;
+; binary_input_vector[3] ; binary_output_vector[2] ; 9.919 ; 10.096 ; 10.445 ; 10.619 ;
+; binary_input_vector[4] ; binary_output_vector[0] ; 8.097 ; 8.079  ; 8.464  ; 8.446  ;
+; binary_input_vector[4] ; binary_output_vector[1] ; 8.943 ; 8.969  ; 9.302  ; 9.328  ;
+; binary_input_vector[4] ; binary_output_vector[2] ; 9.915 ; 10.089 ; 10.274 ; 10.448 ;
+; binary_input_vector[5] ; binary_output_vector[0] ; 7.893 ; 7.875  ; 8.344  ; 8.326  ;
+; binary_input_vector[5] ; binary_output_vector[1] ; 8.711 ; 8.737  ; 9.228  ; 9.254  ;
+; binary_input_vector[5] ; binary_output_vector[2] ; 9.680 ; 9.857  ; 10.200 ; 10.374 ;
+; binary_input_vector[6] ; binary_output_vector[0] ; 7.855 ; 7.837  ; 8.255  ; 8.237  ;
+; binary_input_vector[6] ; binary_output_vector[1] ; 8.739 ; 8.765  ; 9.073  ; 9.099  ;
+; binary_input_vector[6] ; binary_output_vector[2] ; 9.711 ; 9.885  ; 10.042 ; 10.219 ;
+; binary_input_vector[7] ; binary_output_vector[0] ; 7.503 ; 7.475  ; 7.862  ; 7.891  ;
+; binary_input_vector[7] ; binary_output_vector[1] ; 8.074 ; 8.092  ; 8.512  ; 8.522  ;
+; binary_input_vector[7] ; binary_output_vector[2] ; 9.052 ; 9.176  ; 9.412  ; 9.614  ;
+; binary_input_vector[8] ; binary_output_vector[0] ; 7.325 ; 7.317  ; 7.784  ; 7.808  ;
+; binary_input_vector[8] ; binary_output_vector[1] ; 7.904 ; 7.928  ; 8.438  ; 8.448  ;
+; binary_input_vector[8] ; binary_output_vector[2] ; 8.888 ; 8.829  ; 9.061  ; 9.540  ;
+; binary_input_vector[9] ; binary_output_vector[0] ; 6.829 ; 6.853  ; 7.231  ; 7.223  ;
+; binary_input_vector[9] ; binary_output_vector[1] ; 7.483 ; 7.493  ; 7.810  ; 7.834  ;
+; binary_input_vector[9] ; binary_output_vector[2] ;       ; 8.585  ; 8.794  ;        ;
++------------------------+-------------------------+-------+--------+--------+--------+
+
+
++----------------------------------------------------------------------------------+
+; Minimum Progagation Delay                                                        ;
++------------------------+-------------------------+-------+-------+-------+-------+
+; Input Port             ; Output Port             ; RR    ; RF    ; FR    ; FF    ;
++------------------------+-------------------------+-------+-------+-------+-------+
+; binary_input_vector[0] ; binary_output_vector[0] ; 4.544 ; 4.580 ; 5.162 ; 5.198 ;
+; binary_input_vector[0] ; binary_output_vector[1] ; 4.480 ; 4.502 ; 5.077 ; 5.099 ;
+; binary_input_vector[0] ; binary_output_vector[2] ; 5.189 ; 5.377 ; 5.786 ; 5.964 ;
+; binary_input_vector[1] ; binary_output_vector[0] ; 4.416 ; 4.452 ; 4.969 ; 5.005 ;
+; binary_input_vector[1] ; binary_output_vector[1] ; 4.525 ; 4.547 ; 5.066 ; 5.088 ;
+; binary_input_vector[1] ; binary_output_vector[2] ; 5.234 ; 5.412 ; 5.775 ; 5.963 ;
+; binary_input_vector[2] ; binary_output_vector[0] ; 4.282 ; 4.318 ; 4.852 ; 4.888 ;
+; binary_input_vector[2] ; binary_output_vector[1] ; 4.409 ; 4.431 ; 4.979 ; 5.001 ;
+; binary_input_vector[2] ; binary_output_vector[2] ; 5.118 ; 5.307 ; 5.688 ; 5.877 ;
+; binary_input_vector[3] ; binary_output_vector[0] ; 4.507 ; 4.543 ; 5.054 ; 5.090 ;
+; binary_input_vector[3] ; binary_output_vector[1] ; 4.634 ; 4.656 ; 5.181 ; 5.203 ;
+; binary_input_vector[3] ; binary_output_vector[2] ; 5.343 ; 5.532 ; 5.890 ; 6.079 ;
+; binary_input_vector[4] ; binary_output_vector[0] ; 4.212 ; 4.248 ; 4.807 ; 4.825 ;
+; binary_input_vector[4] ; binary_output_vector[1] ; 4.459 ; 4.481 ; 5.031 ; 5.053 ;
+; binary_input_vector[4] ; binary_output_vector[2] ; 5.168 ; 5.352 ; 5.740 ; 5.944 ;
+; binary_input_vector[5] ; binary_output_vector[0] ; 4.189 ; 4.217 ; 4.770 ; 4.791 ;
+; binary_input_vector[5] ; binary_output_vector[1] ; 4.464 ; 4.491 ; 5.009 ; 5.031 ;
+; binary_input_vector[5] ; binary_output_vector[2] ; 5.170 ; 5.359 ; 5.718 ; 5.907 ;
+; binary_input_vector[6] ; binary_output_vector[0] ; 3.999 ; 4.035 ; 4.571 ; 4.589 ;
+; binary_input_vector[6] ; binary_output_vector[1] ; 4.246 ; 4.268 ; 4.795 ; 4.817 ;
+; binary_input_vector[6] ; binary_output_vector[2] ; 4.955 ; 5.139 ; 5.504 ; 5.708 ;
+; binary_input_vector[7] ; binary_output_vector[0] ; 4.104 ; 4.132 ; 4.685 ; 4.706 ;
+; binary_input_vector[7] ; binary_output_vector[1] ; 4.379 ; 4.414 ; 4.961 ; 4.996 ;
+; binary_input_vector[7] ; binary_output_vector[2] ; 5.085 ; 5.274 ; 5.667 ; 5.849 ;
+; binary_input_vector[8] ; binary_output_vector[0] ; 4.067 ; 4.088 ; 4.608 ; 4.636 ;
+; binary_input_vector[8] ; binary_output_vector[1] ; 4.343 ; 4.378 ; 4.883 ; 4.918 ;
+; binary_input_vector[8] ; binary_output_vector[2] ; 5.049 ; 5.231 ; 5.589 ; 5.778 ;
+; binary_input_vector[9] ; binary_output_vector[0] ; 3.990 ; 4.033 ; 4.519 ; 4.542 ;
+; binary_input_vector[9] ; binary_output_vector[1] ; 4.316 ; 4.334 ; 4.793 ; 4.828 ;
+; binary_input_vector[9] ; binary_output_vector[2] ;       ; 5.175 ; 5.499 ;       ;
++------------------------+-------------------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                                                                              ;
++-------------------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; Pin                     ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ; EBD File Name ; EBD Signal Name ; EBD Far-end ;
++-------------------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; binary_output_vector[0] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; binary_output_vector[1] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; binary_output_vector[2] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; binary_output_vector[3] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; binary_output_vector[4] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; binary_output_vector[5] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; binary_output_vector[6] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; binary_output_vector[7] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; binary_output_vector[8] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; binary_output_vector[9] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_DCLK~           ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_nCEO~           ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
++-------------------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+
+
++----------------------------------------------------------------------------+
+; Input Transition Times                                                     ;
++-------------------------+--------------+-----------------+-----------------+
+; Pin                     ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
++-------------------------+--------------+-----------------+-----------------+
+; binary_input_vector[6]  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; binary_input_vector[4]  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; binary_input_vector[7]  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; binary_input_vector[5]  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; binary_input_vector[3]  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; binary_input_vector[2]  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; binary_input_vector[0]  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; binary_input_vector[1]  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; binary_input_vector[8]  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; binary_input_vector[9]  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_ASDO_DATA1~     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_FLASH_nCE_nCSO~ ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_DATA0~          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
++-------------------------+--------------+-----------------+-----------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow Corner Signal Integrity Metrics                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ;
++-------------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin                     ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++-------------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; binary_output_vector[0] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-07 V                   ; 2.35 V              ; -0.0111 V           ; 0.113 V                              ; 0.035 V                              ; 7.76e-10 s                  ; 8.04e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-07 V                  ; 2.35 V             ; -0.0111 V          ; 0.113 V                             ; 0.035 V                             ; 7.76e-10 s                 ; 8.04e-10 s                 ; Yes                       ; Yes                       ;
+; binary_output_vector[1] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-07 V                   ; 2.35 V              ; -0.0111 V           ; 0.113 V                              ; 0.035 V                              ; 7.76e-10 s                  ; 8.04e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-07 V                  ; 2.35 V             ; -0.0111 V          ; 0.113 V                             ; 0.035 V                             ; 7.76e-10 s                 ; 8.04e-10 s                 ; Yes                       ; Yes                       ;
+; binary_output_vector[2] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-07 V                   ; 2.33 V              ; -0.00317 V          ; 0.162 V                              ; 0.063 V                              ; 3.54e-09 s                  ; 3.41e-09 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-07 V                  ; 2.33 V             ; -0.00317 V         ; 0.162 V                             ; 0.063 V                             ; 3.54e-09 s                 ; 3.41e-09 s                 ; Yes                       ; Yes                       ;
+; binary_output_vector[3] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-07 V                   ; 2.35 V              ; -0.0111 V           ; 0.113 V                              ; 0.035 V                              ; 7.76e-10 s                  ; 8.04e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-07 V                  ; 2.35 V             ; -0.0111 V          ; 0.113 V                             ; 0.035 V                             ; 7.76e-10 s                 ; 8.04e-10 s                 ; Yes                       ; Yes                       ;
+; binary_output_vector[4] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-07 V                   ; 2.35 V              ; -0.0111 V           ; 0.113 V                              ; 0.035 V                              ; 7.76e-10 s                  ; 8.04e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-07 V                  ; 2.35 V             ; -0.0111 V          ; 0.113 V                             ; 0.035 V                             ; 7.76e-10 s                 ; 8.04e-10 s                 ; Yes                       ; Yes                       ;
+; binary_output_vector[5] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-07 V                   ; 2.35 V              ; -0.0111 V           ; 0.113 V                              ; 0.035 V                              ; 7.76e-10 s                  ; 8.04e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-07 V                  ; 2.35 V             ; -0.0111 V          ; 0.113 V                             ; 0.035 V                             ; 7.76e-10 s                 ; 8.04e-10 s                 ; Yes                       ; Yes                       ;
+; binary_output_vector[6] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-07 V                   ; 2.35 V              ; -0.0111 V           ; 0.113 V                              ; 0.035 V                              ; 7.76e-10 s                  ; 8.04e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-07 V                  ; 2.35 V             ; -0.0111 V          ; 0.113 V                             ; 0.035 V                             ; 7.76e-10 s                 ; 8.04e-10 s                 ; Yes                       ; Yes                       ;
+; binary_output_vector[7] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-07 V                   ; 2.35 V              ; -0.0111 V           ; 0.113 V                              ; 0.035 V                              ; 7.76e-10 s                  ; 8.04e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-07 V                  ; 2.35 V             ; -0.0111 V          ; 0.113 V                             ; 0.035 V                             ; 7.76e-10 s                 ; 8.04e-10 s                 ; Yes                       ; Yes                       ;
+; binary_output_vector[8] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-07 V                   ; 2.35 V              ; -0.0111 V           ; 0.113 V                              ; 0.035 V                              ; 7.76e-10 s                  ; 8.04e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-07 V                  ; 2.35 V             ; -0.0111 V          ; 0.113 V                             ; 0.035 V                             ; 7.76e-10 s                 ; 8.04e-10 s                 ; Yes                       ; Yes                       ;
+; binary_output_vector[9] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-07 V                   ; 2.35 V              ; -0.0111 V           ; 0.113 V                              ; 0.035 V                              ; 7.76e-10 s                  ; 8.04e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-07 V                  ; 2.35 V             ; -0.0111 V          ; 0.113 V                             ; 0.035 V                             ; 7.76e-10 s                 ; 8.04e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~           ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.68e-07 V                   ; 2.35 V              ; -0.0132 V           ; 0.2 V                                ; 0.027 V                              ; 5.26e-10 s                  ; 4.81e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 5.68e-07 V                  ; 2.35 V             ; -0.0132 V          ; 0.2 V                               ; 0.027 V                             ; 5.26e-10 s                 ; 4.81e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_nCEO~           ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 9.36e-07 V                   ; 2.35 V              ; -0.00444 V          ; 0.18 V                               ; 0.019 V                              ; 7.23e-10 s                  ; 9.82e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 9.36e-07 V                  ; 2.35 V             ; -0.00444 V         ; 0.18 V                              ; 0.019 V                             ; 7.23e-10 s                 ; 9.82e-10 s                 ; Yes                       ; Yes                       ;
++-------------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Corner Signal Integrity Metrics                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ;
++-------------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin                     ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++-------------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; binary_output_vector[0] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-08 V                   ; 2.71 V              ; -0.0349 V           ; 0.253 V                              ; 0.069 V                              ; 4.96e-10 s                  ; 5.19e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-08 V                  ; 2.71 V             ; -0.0349 V          ; 0.253 V                             ; 0.069 V                             ; 4.96e-10 s                 ; 5.19e-10 s                 ; No                        ; Yes                       ;
+; binary_output_vector[1] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-08 V                   ; 2.71 V              ; -0.0349 V           ; 0.253 V                              ; 0.069 V                              ; 4.96e-10 s                  ; 5.19e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-08 V                  ; 2.71 V             ; -0.0349 V          ; 0.253 V                             ; 0.069 V                             ; 4.96e-10 s                 ; 5.19e-10 s                 ; No                        ; Yes                       ;
+; binary_output_vector[2] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-08 V                   ; 2.64 V              ; -0.0109 V           ; 0.244 V                              ; 0.16 V                               ; 2.42e-09 s                  ; 2.37e-09 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-08 V                  ; 2.64 V             ; -0.0109 V          ; 0.244 V                             ; 0.16 V                              ; 2.42e-09 s                 ; 2.37e-09 s                 ; No                        ; Yes                       ;
+; binary_output_vector[3] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-08 V                   ; 2.71 V              ; -0.0349 V           ; 0.253 V                              ; 0.069 V                              ; 4.96e-10 s                  ; 5.19e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-08 V                  ; 2.71 V             ; -0.0349 V          ; 0.253 V                             ; 0.069 V                             ; 4.96e-10 s                 ; 5.19e-10 s                 ; No                        ; Yes                       ;
+; binary_output_vector[4] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-08 V                   ; 2.71 V              ; -0.0349 V           ; 0.253 V                              ; 0.069 V                              ; 4.96e-10 s                  ; 5.19e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-08 V                  ; 2.71 V             ; -0.0349 V          ; 0.253 V                             ; 0.069 V                             ; 4.96e-10 s                 ; 5.19e-10 s                 ; No                        ; Yes                       ;
+; binary_output_vector[5] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-08 V                   ; 2.71 V              ; -0.0349 V           ; 0.253 V                              ; 0.069 V                              ; 4.96e-10 s                  ; 5.19e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-08 V                  ; 2.71 V             ; -0.0349 V          ; 0.253 V                             ; 0.069 V                             ; 4.96e-10 s                 ; 5.19e-10 s                 ; No                        ; Yes                       ;
+; binary_output_vector[6] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-08 V                   ; 2.71 V              ; -0.0349 V           ; 0.253 V                              ; 0.069 V                              ; 4.96e-10 s                  ; 5.19e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-08 V                  ; 2.71 V             ; -0.0349 V          ; 0.253 V                             ; 0.069 V                             ; 4.96e-10 s                 ; 5.19e-10 s                 ; No                        ; Yes                       ;
+; binary_output_vector[7] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-08 V                   ; 2.71 V              ; -0.0349 V           ; 0.253 V                              ; 0.069 V                              ; 4.96e-10 s                  ; 5.19e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-08 V                  ; 2.71 V             ; -0.0349 V          ; 0.253 V                             ; 0.069 V                             ; 4.96e-10 s                 ; 5.19e-10 s                 ; No                        ; Yes                       ;
+; binary_output_vector[8] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-08 V                   ; 2.71 V              ; -0.0349 V           ; 0.253 V                              ; 0.069 V                              ; 4.96e-10 s                  ; 5.19e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-08 V                  ; 2.71 V             ; -0.0349 V          ; 0.253 V                             ; 0.069 V                             ; 4.96e-10 s                 ; 5.19e-10 s                 ; No                        ; Yes                       ;
+; binary_output_vector[9] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-08 V                   ; 2.71 V              ; -0.0349 V           ; 0.253 V                              ; 0.069 V                              ; 4.96e-10 s                  ; 5.19e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-08 V                  ; 2.71 V             ; -0.0349 V          ; 0.253 V                             ; 0.069 V                             ; 4.96e-10 s                 ; 5.19e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_DCLK~           ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.22e-08 V                   ; 2.72 V              ; -0.0747 V           ; 0.28 V                               ; 0.169 V                              ; 3.1e-10 s                   ; 3.01e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.22e-08 V                  ; 2.72 V             ; -0.0747 V          ; 0.28 V                              ; 0.169 V                             ; 3.1e-10 s                  ; 3.01e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_nCEO~           ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.53e-08 V                   ; 2.7 V               ; -0.0212 V           ; 0.204 V                              ; 0.049 V                              ; 4.85e-10 s                  ; 6.73e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 3.53e-08 V                  ; 2.7 V              ; -0.0212 V          ; 0.204 V                             ; 0.049 V                             ; 4.85e-10 s                 ; 6.73e-10 s                 ; No                        ; Yes                       ;
++-------------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 10    ; 10   ;
+; Unconstrained Input Port Paths  ; 30    ; 30   ;
+; Unconstrained Output Ports      ; 3     ; 3    ;
+; Unconstrained Output Port Paths ; 30    ; 30   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+    Info: Processing started: Wed Apr 17 17:08:43 2019
+Info: Command: quartus_sta countPatternOccurrences -c countPatternOccurrences
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21077): Core supply voltage is 1.2V
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'countPatternOccurrences.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow 1200mV 85C Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info: Analyzing Slow 1200mV 0C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info: Analyzing Fast 1200mV 0C Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 437 megabytes
+    Info: Processing ended: Wed Apr 17 17:08:44 2019
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

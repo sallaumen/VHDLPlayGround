@@ -1,0 +1,41 @@
+LIBRARY IEEE;
+USE ieee.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+Entity countInputsAndBrightSequentialLEDs IS
+	generic (
+		INPUT_SIZE : integer := 9;
+		OUTPUT_SIZE : integer := 9
+	);
+	port(		
+		binary_input_vector: IN STD_LOGIC_VECTOR(INPUT_SIZE downto 0);
+		binary_output_vector: OUT STD_LOGIC_VECTOR(OUTPUT_SIZE downto 0)
+	);
+END entity;
+
+Architecture arch OF countInputsAndBrightSequentialLEDs IS
+	-- New created type
+	type int_array is array(0 to INPUT_SIZE) of integer;  
+	-- Generic signals to atribute the results
+	signal sum_vector : int_array;	
+	-- Generic signals to atribute the results
+	signal result : integer;
+BEGIN
+	-- Conta numero de chaves ligadas - O unico dado importante é sum_vector(INPUT_SIZE)
+	sum_vector(0) <= 1 when binary_input_vector(0) = '1'
+								else 0;
+								
+	countHighBinaryInputs: for i in 1 to INPUT_SIZE generate
+		sum_vector(i) <= sum_vector(i-1) + 1 when binary_input_vector(i) = '1' else
+								sum_vector(i-1);
+	end generate countHighBinaryInputs;
+	
+	-- Output multiplicada
+	result <= sum_vector(INPUT_SIZE);
+		
+	-- Generate sequencial output vector
+	showSequentialLEDOutput: for i in 0 to OUTPUT_SIZE generate
+		binary_output_vector(i) <= '1' when i <= result-1 else '0';
+	end generate showSequentialLEDOutput;	 
+	
+END Architecture;

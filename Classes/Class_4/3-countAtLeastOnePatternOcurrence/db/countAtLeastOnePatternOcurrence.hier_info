@@ -1,0 +1,41 @@
+|countAtLeastOnePatternOcurrence
+binary_input_vector[0] => Equal0.IN3
+binary_input_vector[1] => Equal0.IN2
+binary_input_vector[1] => Equal1.IN3
+binary_input_vector[2] => Equal0.IN0
+binary_input_vector[2] => Equal1.IN2
+binary_input_vector[2] => Equal2.IN3
+binary_input_vector[3] => Equal0.IN1
+binary_input_vector[3] => Equal1.IN0
+binary_input_vector[3] => Equal2.IN2
+binary_input_vector[3] => Equal3.IN3
+binary_input_vector[4] => Equal1.IN1
+binary_input_vector[4] => Equal2.IN0
+binary_input_vector[4] => Equal3.IN2
+binary_input_vector[4] => Equal4.IN3
+binary_input_vector[5] => Equal2.IN1
+binary_input_vector[5] => Equal3.IN0
+binary_input_vector[5] => Equal4.IN2
+binary_input_vector[5] => Equal5.IN3
+binary_input_vector[6] => Equal3.IN1
+binary_input_vector[6] => Equal4.IN0
+binary_input_vector[6] => Equal5.IN2
+binary_input_vector[6] => Equal6.IN3
+binary_input_vector[7] => Equal4.IN1
+binary_input_vector[7] => Equal5.IN0
+binary_input_vector[7] => Equal6.IN2
+binary_input_vector[8] => Equal5.IN1
+binary_input_vector[8] => Equal6.IN0
+binary_input_vector[9] => Equal6.IN1
+binary_output_vector[0] <= checker_vector.DB_MAX_OUTPUT_PORT_TYPE
+binary_output_vector[1] <= <GND>
+binary_output_vector[2] <= <GND>
+binary_output_vector[3] <= <GND>
+binary_output_vector[4] <= <GND>
+binary_output_vector[5] <= <GND>
+binary_output_vector[6] <= <GND>
+binary_output_vector[7] <= <GND>
+binary_output_vector[8] <= <GND>
+binary_output_vector[9] <= <GND>
+
+
