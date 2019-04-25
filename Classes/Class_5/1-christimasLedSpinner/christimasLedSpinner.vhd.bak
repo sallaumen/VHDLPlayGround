@@ -1,0 +1,32 @@
+LIBRARY IEEE;
+USE ieee.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+Entity christmasLedSpinner IS
+	generic (
+		OUTPUT_SIZE : integer := 9;
+		TIME_MS : integer := 500;
+	);
+	port(		
+		ck, rst: in std_logic;
+		binary_output_vector: IN STD_LOGIC_VECTOR(OUTPUT_SIZE downto 0);
+	);
+END entity;
+
+Architecture arch OF christmasLedSpinner IS
+
+BEGIN
+	process(ck, rst)
+		begin
+		if rst = '1' then
+			binary_output_vector(0) <= '1';
+			binary_output_vector <= (others => '0');
+		elsif ck'event and ck = '0' then
+			if ce = '1' then
+				Q <= D;
+			end if;
+		end if;
+		
+	end process; 
+		
+END Architecture;
