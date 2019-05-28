@@ -1,0 +1,48 @@
+LIBRARY IEEE;
+USE ieee.std_logic_1164.all;
+use IEEE.numeric_std.all;
+use ieee.math_real.all;
+
+Entity button_debounce IS
+	generic (
+		OUTPUT_SIZE : integer := 9;
+		--debounce time
+		TIME_MS : integer := 1000
+	);
+	port(		
+		clk, rst, button: out std_logic;
+		test_led: out std_logic;
+	);
+END entity;
+
+Architecture arch OF button_debounce IS
+BEGIN
+	process(clk, rst, button)
+		variable output: std_logic;
+		variable clk_counter: integer := 0;
+		variable clk_adjusted: integer := TIME_MS*50*1000;
+
+		begin
+			if rst = '0' then
+				output := '0';		
+		
+			elsif rising_edge(clk) then
+				--Se clk_counter /=0, então está no período de debounce.
+				if clk_counter /= 0 then
+					clk_counter := clk_counter+1;
+					if clk_counter = clk_adjusted then
+						clk_counter := 0;
+					end if;
+				--Se clk_counter /=0, então não está no período de debounce, ação do botão pode ser efetuada.
+				elsif clk_counter = 0 then
+					if button = '0' then
+						output := not output;
+						clk_counter := 1;
+					end if;
+				end if;
+			end if;
+			
+			test_led <= output;
+	end process; 
+		
+END Architecture;
