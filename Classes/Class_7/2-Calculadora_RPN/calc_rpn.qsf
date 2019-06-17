@@ -1,0 +1,96 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 15:45:38  June 05, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		calc_rpn_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C16F484C6
+set_global_assignment -name TOP_LEVEL_ENTITY calc_rpn
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:45:38  JUNE 05, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.0
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name VHDL_FILE calc_rpn.vhd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_G21 -to clk
+set_location_assignment PIN_H2 -to enter_button
+set_location_assignment PIN_F1 -to input_button_dec
+set_location_assignment PIN_G3 -to input_button_inc
+set_location_assignment PIN_G4 -to input_operation_DIV
+set_location_assignment PIN_H6 -to input_operation_MULT
+set_location_assignment PIN_H5 -to input_operation_SUB
+set_location_assignment PIN_J6 -to input_operation_SUM
+set_location_assignment PIN_G16 -to output_value_displayed[31]
+set_location_assignment PIN_G15 -to output_value_displayed[30]
+set_location_assignment PIN_D19 -to output_value_displayed[29]
+set_location_assignment PIN_C19 -to output_value_displayed[28]
+set_location_assignment PIN_B19 -to output_value_displayed[27]
+set_location_assignment PIN_A19 -to output_value_displayed[26]
+set_location_assignment PIN_F15 -to output_value_displayed[25]
+set_location_assignment PIN_B18 -to output_value_displayed[24]
+set_location_assignment PIN_A18 -to output_value_displayed[23]
+set_location_assignment PIN_F14 -to output_value_displayed[22]
+set_location_assignment PIN_B17 -to output_value_displayed[21]
+set_location_assignment PIN_A17 -to output_value_displayed[20]
+set_location_assignment PIN_E15 -to output_value_displayed[19]
+set_location_assignment PIN_B16 -to output_value_displayed[18]
+set_location_assignment PIN_A16 -to output_value_displayed[17]
+set_location_assignment PIN_D15 -to output_value_displayed[16]
+set_location_assignment PIN_B15 -to output_value_displayed[15]
+set_location_assignment PIN_A15 -to output_value_displayed[14]
+set_location_assignment PIN_E14 -to output_value_displayed[13]
+set_location_assignment PIN_B14 -to output_value_displayed[12]
+set_location_assignment PIN_A14 -to output_value_displayed[11]
+set_location_assignment PIN_C13 -to output_value_displayed[10]
+set_location_assignment PIN_B13 -to output_value_displayed[9]
+set_location_assignment PIN_A13 -to output_value_displayed[8]
+set_location_assignment PIN_D13 -to output_value_displayed[7]
+set_location_assignment PIN_F13 -to output_value_displayed[6]
+set_location_assignment PIN_F12 -to output_value_displayed[5]
+set_location_assignment PIN_G12 -to output_value_displayed[4]
+set_location_assignment PIN_H13 -to output_value_displayed[3]
+set_location_assignment PIN_H12 -to output_value_displayed[2]
+set_location_assignment PIN_F11 -to output_value_displayed[1]
+set_location_assignment PIN_E11 -to output_value_displayed[0]
+set_location_assignment PIN_D2 -to rst
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
